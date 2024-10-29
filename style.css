@@ -33,7 +33,7 @@ text-align: center;
     padding: 7px 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none; /* Remove o sublinhado */
-    border-radius: 30px;
+    border-radius: 25px;
     font-size: 20px;
     transition: background-color 0.3s;
     justify-content: center; /* Centraliza horizontalmente */
@@ -51,7 +51,7 @@ text-align: center;
     align-items: center; /* Centraliza verticalmente */
     margin: 0 auto; /* Centraliza o contêiner na página */
     padding: 20px; /* Adiciona um espaçamento ao redor do contêiner */
-    gap: 15px; /* Espaçamento entre os botões (ajuste o valor conforme necessário) */
+    gap: 30px; /* Espaçamento entre os botões (ajuste o valor conforme necessário) */
   }
 .font-ar {
   font-family: "Playwrite GB S", cursive;
