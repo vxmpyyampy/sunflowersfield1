@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(42, 98%, 67%)
+    }
+h1 {
+  border: 5px double black;
+  font-size: 65px;
+  text-align: center;
+}
+p { 
+  text-align: center;
+  font-size: 25px;
+  color; #120a01;
+}
+.font-ar {
+  font-family: "Playwrite GB S", cursive;
+}
+  .meu-botao {
+    display: inline-block; /* Faz o link parecer um botão */
+    background-color: rgb(209, 177, 19);
+    color: black;
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 30px;
+    font-size: 25px;
+    transition: background-color 0.3s;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border: 2px solid #120a01;
+    text-align: center;
+  }
+  .meu-botao:hover {
+    background-color: #97671b;
+  }
+  .botao-container {
+    display: flex; /* Habilita o uso do Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Adiciona um espaçamento ao redor do contêiner */
+    gap: 15px; /* Espaçamento entre os botões (ajuste o valor conforme necessário) */
+  }
+/* Centraliza o contêiner de imagens em coluna */
+.image-container {
+    display: flex;
+    flex-direction: column; /* Alinha as imagens verticalmente */
+    align-items: center; /* Centraliza as imagens na linha */
+    margin-top: 20px; /* Espaçamento entre o h1 e as imagens */
+}
+
+/* Define um tamanho padrão para as imagens, se necessário */
+.image-container img {
+    width: 550px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção das imagens */
+    margin-bottom: 10px; /* Espaço entre as imagens */
+}
