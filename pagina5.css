@@ -1,4 +1,14 @@
 body {
+     background-color: hsl(42, 98%, 67%)
+    /* Estilos padrão para desktop */
+body {
+    font-size: 16px;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
     background-image: url(images/bg-girassol2.png);
     background-repeat: no-repeat;
     background-size: contain;
