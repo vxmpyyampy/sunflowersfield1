@@ -1,4 +1,16 @@
 body {
+    /* Estilos padrão para desktop */
+body {
+    font-size: 16px;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    /* Adicione outros estilos específicos para dispositivos móveis aqui */
+}
     background-image: url(images/bg-girassol2.png);
     background-repeat: no-repeat;
     background-size: contain;
