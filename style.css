@@ -45,7 +45,7 @@ text-align: center;
   .meu-botao:hover {
     background-color: #97671b;
   }
-  .botao-container  {
+  .container  {
     display: flex;
     flex-direction: column; /* Faz os botões ficarem em coluna */
     align-items: center;    /* Centraliza os botões horizontalmente */
