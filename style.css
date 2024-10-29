@@ -28,11 +28,11 @@ text-align: center;
     display: inline-block; /* Faz o link parecer um botão */
     background-color: rgb(209, 177, 19);
     color: black;
-    padding: 10px 20px;
+    padding: 7px 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none; /* Remove o sublinhado */
     border-radius: 30px;
-    font-size: 25px;
+    font-size: 20px;
     transition: background-color 0.3s;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
