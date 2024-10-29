@@ -56,7 +56,7 @@ p {
 
 /* Define um tamanho padrão para as imagens, se necessário */
 .image-container img {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: 100; /* Mantém a proporção das imagens */
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção das imagens */
     margin-bottom: 10px; /* Espaço entre as imagens */
 }
