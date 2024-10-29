@@ -45,13 +45,11 @@ text-align: center;
   .meu-botao:hover {
     background-color: #97671b;
   }
-  .botao-container {
-    display: flex; /* Habilita o uso do Flexbox */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    margin: 0 auto; /* Centraliza o contêiner na página */
-    padding: 20px; /* Adiciona um espaçamento ao redor do contêiner */
-    gap: 15px; /* Espaçamento entre os botões (ajuste o valor conforme necessário) */
+  .botao-container  {
+    display: flex;
+    flex-direction: column; /* Faz os botões ficarem em coluna */
+    align-items: center;    /* Centraliza os botões horizontalmente */
+    justify-content: center; /* Centraliza os botões verticalmente */
   }
 .font-ar {
   font-family: "Playwrite GB S", cursive;
